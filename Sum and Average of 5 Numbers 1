@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        int d=sc.nextInt();
+        int e=sc.nextInt();
+        int sum=(a+b+c+d+e);
+        double avg=(sum/5.0);
+        System.out.println("Sum of the 5 number is : "+sum);
+        System.out.println("Average of the 5 number is : "+avg);
+    }
+}
