@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc=new Scanner(System.in);
+        float a=sc.nextFloat();
+        System.out.printf("%.6f",a);
+        System.out.printf("\n%.4f",a);
+        System.out.printf("\n%.2f",a);
+        System.out.printf("\n%.0f",a);                  
+    }
+}
